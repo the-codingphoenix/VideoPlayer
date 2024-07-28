@@ -2,7 +2,6 @@ const video = document.querySelector('video'); //selecting the video element its
 const progressRange = document.querySelector('.progress-range');
 const progressBar = document.querySelector('.progress-bar');
 const playBtn = document.getElementById('play-btn');
-const nextBtn = document.getElementById('next-btn');
 const volumeIcon = document.getElementById('volume-icon');
 const volumeRange = document.querySelector('.volume-range');
 const volumeBar = document.querySelector('.volume-bar');
@@ -11,14 +10,6 @@ const duration = document.querySelector('.time-duration');
 const speed = document.querySelector('.player-speed');
 const fullscreenBtn = document.querySelector('.fullscreen');
 
-// Array of video URLs
-const videoPlaylist = [
-    './200m-race.mp4',
-    './relay-race.mp4',
-    './women-100m.mp4'
-];
-
-let currentVideoIndex = 0;
 
 // Play & Pause ----------------------------------- //
 function showPlayIcon() {
