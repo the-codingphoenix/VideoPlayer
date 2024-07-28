@@ -44,19 +44,6 @@ video.addEventListener('click', togglePlay);
 // on video end, show play icon
 video.addEventListener('ended', showPlayIcon);
 
-// Next Video ---------------------------------- //
-function nextVideo() {
-    currentVideoIndex = (currentVideoIndex + 1) % videoPlaylist.length;
-    video.src = videoPlaylist[currentVideoIndex];
-    video.play();
-    showPauseIcon();
-}
-
-// Event listeners for next button
-nextBtn.addEventListener('click', nextVideo);
-// Play next video automatically when the current video ends
-video.addEventListener('ended', nextVideo);
-
 // Progress Bar ---------------------------------- //
 // Calculate display time format
 function displayTime(time) {
