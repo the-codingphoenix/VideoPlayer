@@ -231,7 +231,7 @@ select > option {
   }
 
   .fa-solid {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .controls-container {
@@ -260,17 +260,20 @@ select > option {
     top: -15px;
   }
 
-  .speed,
   .time {
-    top: 3px;
+    top: 4px;
+  }
+
+  .speed {
+    top: 2px;
   }
 
   select {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .time {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
